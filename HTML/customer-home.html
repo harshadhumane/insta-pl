@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Customer Home</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="icon" href="images/fevicon.png" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/jquery-ui.min.css" />
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+	<link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<!-- CONTAINER-FIXED START -->
+	<div class="container-fixed">
+		<!-- HEADER START-->
+		<header class="custom-header d-flex justify-content-between align-items-center">
+			<!-- LEFT-BOX START -->
+			<div class="left-box">
+				<div class="logo box">
+					<a href="home.html">
+						<img src="images/logo.png" alt="logo-img" class="logo-img">
+					</a>
+				</div>
+			</div>
+			<!-- LEFT-BOX END -->
+			<!-- RIGHT-BOX START -->
+			<div class="right-box align-items-center ">
+				<h3 class="head-link">
+					1800 200 3344
+				</h3>
+				<div class="call-logo-box">
+					<a href="tel:1800 200 3344">
+						<img src="images/phone-call.png" alt="call-img" class="call-img">
+					</a>
+				</div>
+			</div>
+			<!-- RIGHT-BOX END -->
+
+			<!-- MENU BURGER START -->
+			<div class="menu-burger d-lg-none">
+				<div class="burger-line burger-line1"></div>
+				<div class="burger-line burger-line2"></div>
+				<div class="burger-line burger-line3"></div>
+			</div>
+			<!-- MENU BURGER END -->
+		</header>
+		<!-- HEADER END-->
+
+		<!-- MAIN START-->
+		<main class="customer-home-container">
+			<!-- CUSTOMER-HOME-START -->
+			<div class="top-content">
+				<div class="head-box">
+					<h1 class="light-head">
+						Review and customise your Personal Loan
+					</h1>	
+				</div>
+				<div class="offer-detail-box">
+					<span class="offer-span md-text mob-hide">
+						Offer Details
+					</span>
+					<div class="offer-detail-content banner-white d-flex align-items-center">
+						<div class="image-curve-box hide-ban">
+							<div class="image-curve">
+								<img src="images/personal-loan-icon.png" alt="personal-loan-icon.png" class="personal-loan-icon banner-icon">
+							</div>
+						</div>
+						<div class="banner-content hide-ban">
+							<h3 class="banner-head">
+								Personal Loan
+							</h3>
+							<p class="banner-para">
+								Loan Type
+							</p>
+						</div>
+						<div class="banner-content hide-ban">
+							<h3 class="banner-head numer-font numer-bold">
+								<span class="rupper-sign"> &#8377;</span>5,00,000
+							</h3>
+							<p class="banner-para">
+								Total Loan Amount
+							</p>
+						</div>
+						<div class="banner-content hide-ban">
+							<h3 class="banner-head numer-font numer-bold">
+								60
+							</h3>
+							<p class="banner-para">
+								Loan Tenure (Month)
+							</p>
+						</div>
+						<div class="banner-content">
+							<h3 class="banner-head numer-font numer-bold">
+								XXXXXXXX3112
+							</h3>
+							<p class="banner-para">
+								Account to be credited
+							</p>
+						</div>
+						<div class="banner-content">
+							<h3 class="banner-head">
+								Bhaskar11@hotmail.com
+							</h3>
+							<p class="banner-para">
+								E-mail ID<span class="edit-icon modal-btn" data-target="#emailModal"></span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- BOTTOM-CONTENT-START -->
+			<div class="bottom-content white-bg d-flex">
+				<!-- LEFT-BOX_START -->
+				<div class="left-box">
+					<div class="head-box hide-ban">
+						<h3 class="sub-heading grey-txt">
+							Customise your loan
+						</h3>
+					</div>
+					<div class="slider-com-conatiner">
+						<div class="loan-am-box d-flex">
+							<span class="loan-txt label-txt">Loan Amount(<i class="rupper-sign">&#8377;</i>)</span>
+							<input class="range-field" value="5,00,000" id="amount-range">
+						</div>
+						<div class="upper-slider comm-slider-box">
+							<div class="slider-box">
+								<div id="coloredSlider"></div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-com-conatiner slider-conatiner-1">	
+						<div class="loan-am-box d-flex">
+							<span class="loan-txt label-txt">Loan Tenure (Month)</span>
+							<input class="range-field" value="12" id="tenure-range">
+						</div>
+						<div class="lower-slider comm-slider-box">
+							<div class="slider-box">
+								<div id="coloredSlider1"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- LEFT-BOX_END -->
+
+				<!-- RIGHT-BOX-START -->
+				<div class="right-box">
+					<div class="right-inner-box banner-white">
+						<h3 class="sub-heading grey-txt fsz-22 mob-hide">
+							Details
+						</h3>
+						<div class="card-box d-flex flex-wrap">
+							<div class="card-inner ">
+								<div class="card-head banner-para">
+									EMI Amount
+								</div>
+								<span class="fsz-22 card-para numer-font">
+									₹500,000
+								</span>
+								<p class="emi-foot">
+									5th of every month
+								</p>
+							</div>
+							<div class="card-inner right-cards">
+								<div class="card-head banner-para">
+									Interest Rate (Fixed)
+								</div>
+								<span class="fsz-22 card-para numer-font">
+									11.46%
+								</span>
+							</div>
+							<div class="card-inner cols-2-card">
+								<div class="card-head banner-para">
+									Fees
+								</div>
+								<span class="fsz-22 card-para numer-font ">
+									₹500,000
+								</span>
+							</div>
+							<div class="card-inner right-cards cols-2-card">
+								<div class="card-head banner-para">
+									Net Amount Disbursed
+								</div>
+								<span class="fsz-22 card-para numer-font">
+									₹500,000
+								</span>
+							</div>
+						</div>
+						<div class="card-foot numer-font">
+							You Save  - <span class="rupper-sign"> ₹</span>10,000
+						</div>
+					</div>
+				</div>
+				<!-- RIGHT-BOX-END -->
+			</div>
+			<div class="emi-bottom-box">
+				<div class="terms-box">
+					<div class="terms-txt terms-para">
+						<p>
+						*EMI amount may vary basis disbursement date and date of first EMI. Rate of Interest to remain same.
+						</p>
+						<div class="consent-box">
+							<div class="cust-check">
+							  <input type="checkbox" checked="checked" name="agree-check1">
+							  <span class="checkmark"></span>
+							</div>
+							<p class="term-s">
+							I declare that the information I have provided above is accurate and complete to the best of my knowledge. I authorize ICICI Bank & its representatives to call or SMS me with reference to my loan application.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="btn-box">
+					<a href="javascript:void(0)" class="d-flex tertiary-btn justify-content-center align-items-center con-dis">
+						Confirm
+					</a>
+				</div>
+			</div>
+			<!-- BOTTOM-CONTENT-END -->
+			<!-- BOTTOM-BOX-START -->
+			<div class="bottom-box ">
+				<div class="grey-box direct-box d-flex">
+					<div class="left-direct-box d-flex">
+						<h3 class="direct-text">
+							Are you a Director/Relative of Director of ICICI Bank or any other Bank? OR Are you a Senior Officer at ICICI Bank
+						</h3>
+						<div class="switch-box">
+							<label class="switch">
+							  <input type="checkbox" name="switch-check" class="switch-check">
+							  <span class="slider">
+							  	<i class="left-switch comm-switch">Yes</i>
+							  	<i class="right-switch comm-switch active">No</i>
+							  </span>
+							</label>
+						</div>
+					</div>
+					<div class="relation-drop-box">	
+						<div class="dropdown relation-box">
+							<span class="drop-slider">
+								Select Relationship
+							</span>
+						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"></button>
+						  <div class="dropdown-menu relation-drop-op cust-scroll">
+						    <a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Self
+						    </a>
+						  	<a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Daughter
+						    </a>
+						    <a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Daughters Husband
+						    </a>
+						    <a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Father
+						    </a>
+						    <a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Husband
+						    </a>
+						    <a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Members of a Hindu <br>Undivided Family
+						    </a>
+						    <a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Mother
+						    </a>
+						    <a class="dropdown-item drop-cust-item active" href="javascript:void(0)">
+						    	Brother
+						    </a>
+						    <a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Sister
+						    </a>
+						    <a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Son
+						    </a>
+						    <a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Sons Wife
+						    </a>
+						    <a class="dropdown-item drop-cust-item" href="javascript:void(0)">
+						    	Wife
+						    </a>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="last-box">
+					<div class="agree-check-box">	
+						<div class="cust-check">
+						  <input type="checkbox" checked="checked" name="agree-check">
+						  <span class="checkmark"></span>
+						</div>
+						<div class="terms-txt terms-para">
+							I have read the <a href="javascript:void(0)" class="orange-anch"> agreement documents</a>, Also agree to all the Declarations and <a href="javascript:void(0)" class="orange-anch">Terms and Conditions</a>
+						</div>
+					</div>
+					<div class="btn-box dis-btn-box">
+						<a href="javascript:void(0)" class="d-flex tertiary-btn justify-content-center align-items-center modal-btn" data-target="#otpModal">
+							Disburse Now
+						</a>
+					</div>
+					<div class="otp-verify">
+						<p class="otp-text ">
+							OTP will be sent for verification
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- BOTTOM-BOX-END -->
+			<!-- CUSTOMER-HOME-END -->
+		</main>
+		<!-- MAIN END-->
+
+		<!-- FOOTER START-->
+<!-- 		<footer>
+			@ Copyright 2001-2014 Copyright .in - All Rights Reserved
+		</footer> -->
+		<!-- FOOTER END-->
+	</div>
+	<!-- CONTAINER-FIXED END  -->
+
+	<!-- MODAL-POP-START -->
+	
+	<!-- OTP-MODAL-POP-START -->
+	<!-- The Modal -->
+	<div class="modal otpModal" id="otpModal">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+	      <!-- Modal body -->
+	      <div class="modal-body">
+	        <div class="modal-conatiner otp-container">
+	        	<div class="head-box">
+	        		<h3 class="headd">
+	        			Enter the OTP received on your registered mobile number to authorise the transaction
+	        		</h3>
+	        	</div>
+	        	<div class="number-span-box">
+	        		<span class="number-span label-txt numer-font ">
+	        			98XXXXXX28
+	        		</span>
+	        	</div>
+	        	<!-- OTP-BOX START -->
+	        	<div class="otp-box">
+	        		<span class="otp-counter">
+	        			00:00
+	        		</span>
+	        		<div class="otp-num-inp">
+	        			<input class="Box productkey1 input-box otp-box" type="text" name="number1" maxlength="1" placeholder="">
+	        			<input class="Box productkey2 input-box otp-box" type="text" name="number2" maxlength="1" placeholder="">
+	        			<input class="Box productkey3 input-box otp-box" type="text" name="number3" maxlength="1" placeholder="">
+	        			<input class="Box productkey4 input-box otp-box" type="text" name="number4" maxlength="1" placeholder="">
+	        			<input class="Box productkey4 input-box otp-box" type="text" name="number5" maxlength="1" placeholder="">
+	        			<input class="Box productkey4 input-box otp-box" type="text" name="number6" maxlength="1" placeholder="">
+	        		</div>
+	        		<div class="resend-otp-box">
+	        			<a href="javascript:void(0)" class="orange-anch">
+	        				Resend OTP
+	        			</a>
+	        		</div>
+	        	</div>
+	        	<!-- OTP-BOX END -->
+						<div class="btn-group d-flex">
+							<a href="javascript:void(0)" class="d-flex tertiary-btn inact justify-content-center align-items-center" data-dismiss="modal">
+								Cancel
+							</a>
+							<a href="customerCongratulation.html" class="d-flex tertiary-btn justify-content-center align-items-center">
+								Confirm
+							</a>
+						</div>
+	        </div>
+	        <div class="terms-box">
+					<div class="terms-txt terms-para">
+						Please do  not share OTP with anyone, even if the person claims to be an ICICI Bank officials.
+						For further details please <a href="javscript:void(0)" class="orange-anch">click here</a>
+					</div>
+				</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- OTP-MODAL-POP-START -->
+
+
+	<!-- EMAIl-MODAL-POP-START -->
+	<!-- The Modal -->
+	<div class="modal emailModal" id="emailModal">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+	      <!-- Modal body -->
+	      <div class="modal-body">
+	        <div class="modal-conatiner otp-container">
+	        	<div class="head-box">
+	        		<h3 class="headd">
+	        			Update E-mail ID
+	        		</h3>
+	        	</div>
+	        	<div class="input-box email-inp-box">
+	        		<input class="email-inp-field text-inp-box" value="Bhaskar11@hotmail.com" maxlength="30" id="email-update" type="email">
+	        	</div>
+
+						<div class="btn-group d-flex">
+							<a href="javascript:void(0)" class="d-flex tertiary-btn inact justify-content-center align-items-center" data-dismiss="modal">
+								Cancel
+							</a>
+							<a href="javascript:void(0)" class="d-flex tertiary-btn justify-content-center align-items-center">
+								Confirm
+							</a>
+						</div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- EMAIl-MODAL-POP-START -->
+
+	<!-- MODAL-POP-END -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/common.js"></script>
+	<script>
+			$(".ui-slider-handle").draggable();
+    
+		// SLIDER-JS-START
+		$(document).ready(function()
+		{
+      // UI SLIDER START
+	    function custSlider(slideName,minVal,maxVal,stepVal)
+	    {
+	      // SLIDER JS START
+	      $(slideName).slider({
+	        orientation: "horizontal",
+	        range: "min",
+	        min:minVal,
+	        max: maxVal,
+	        step:stepVal,
+	        value: 0,
+	        slide: function (event, ui) 
+	        {
+	          $(slideName).find(".range-tooltip").html(ui.value);
+	          $(slideName).closest(".slider-com-conatiner").find(".range-field").val(ui.value);
+	        }
+	      });
+	      myColor="linear-gradient(to left, #f5b033, #e77817)";
+	      $(slideName).find(".ui-slider-range" ).css( "background-image", myColor );
+	      var myRangeBtn="linear-gradient(to left, #e77817, #97291e)"
+	      $(slideName).find(".ui-state-default, .ui-widget-content .ui-state-default" ).css( 
+	        {"background-image": myRangeBtn,
+	          "border-radius":"100%",
+	          "border":"solid 4px #ffffff",
+	          "width": "26px",
+	          "height": "26px",
+	          "top": "50%",
+	          "transform": "translateY(-50%)"
+	        } );
+	      $(slideName).css("background","#d8d8d8");
+
+	    }
+
+
+    // UI SLIDER END
+			custSlider(coloredSlider,50000,2000000,10000);
+   		custSlider(coloredSlider1,12,60,6);
+			// ui-slider-HANDLE
+			// ui-slider-HANDLE-END
+
+			$("#coloredSlider1").slider().each(function() 
+    {
+      //
+      // Add labels to slider whose values 
+      // are specified by min, max and whose
+      // step is set to 1
+      //
+      // Get the options for this slider
+      var opt = $(this).data().uiSlider.options;
+      // Get the number of possible values
+      var vals = opt.max - opt.min;
+      var j=0;
+      $(this).find(".ui-slider-handle").html("<i class='range-tooltip'>"+opt.min+"</i>");
+      // Space out values
+      for (var i = opt.min; i <= opt.max ; i+=6 ) 
+      {
+        var el = $('<label>'+(i)+'</label>').css('left',(j/vals*100)+'%');
+        $( "#coloredSlider1" ).append(el);
+        j+=6;
+      }
+    });
+
+    $("#coloredSlider").slider().each(function() 
+    {
+      //
+      // Add labels to slider whose values 
+      // are specified by min, max and whose
+      // step is set to 1
+      //
+      // Get the options for this slider
+      var opt = $(this).data().uiSlider.options;
+      // Get the number of possible values
+      var vals = opt.max - opt.min;
+      var j=0;
+  		$(this).find(".ui-slider-handle").html("<i class='range-tooltip'>"+opt.min+"</i>");
+      // Space out values
+      for (var i = opt.min; i <= opt.max ; i+=6 ) 
+      {
+        if(i==opt.min)
+        {
+        var el = $('<label>'+(i)+'</label>').css('left',(0)+'%');
+        $( "#coloredSlider" ).append(el);
+        }
+        else if(i==opt.max )
+        {
+          var el = $('<label>'+(i)+'</label>').css('right',(0)+'%');
+          $( "#coloredSlider" ).append(el);
+
+        }
+        j+=1;
+
+      }
+    });
+    $(".relation-drop-op").mCustomScrollbar({
+    	axis:"y"
+    });
+		});
+
+
+	</script>
+
+</body>
+
+</html>
