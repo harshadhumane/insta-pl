@@ -33,17 +33,16 @@ $(document).ready(function() {
   // LEFT_NAV_CLICK_END
 else
 {
+  alert(1);
 $("body,html").addClass("over-x");
   // MOBILE LEFT_NAV_CLICK_END
 $(".hambur-img").click(function(){
       $(".left-inner.nav-bar").closest(".left-box").addClass("mob-menu");
       $("body,html").addClass("over");
-      $("body,html").removeClass("over-x");
       });
 
 $(".menu-cross-mob-box").click(function(){
       $(".left-inner.nav-bar").closest(".left-box").removeClass("mob-menu");
-      $("body,html").removeClass("over");
       $("body,html").addClass("over-x");
       });
   // Mobile LEFT_NAV_CLICK_END
