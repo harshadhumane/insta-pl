@@ -3956,7 +3956,12 @@ mohsin css 16-03-2019 */
 }
 
 /*ADP CUSTOMER IF NO OFFER-END*/
-
+/*MOHSIN START 01-04-2019*/
+.acc-detail-data-box .acc-data-head
+{
+  font-family: 'zurich_bt'
+}
+/*MOHSIN 01-04-2019 END*/
 
 /*MEDIA QUERIES START*/
 /*MEDIA 1200 START*/
@@ -5910,7 +5915,7 @@ mohsin css 16-03-2019 */
   }
 
   .card-body-content .upper-box .upper-right-box .small-para {
-    padding-right: 70px;
+        padding-right: 60px;
   }
 
   .card-body-content .upper-box .upper-left-box .small-para {
@@ -6791,6 +6796,17 @@ mohsin css 16-03-2019 */
 }
 
 }
+  /*MOHSIN-01-AP-2019-START*/
+  .congModal .btn-box, .sorryModal .btn-box
+  {
+    justify-content: space-around;
+    padding: 0 5px;
+  }
+  .congModal .btn-box a, .sorryModal .btn-box a
+  {
+    margin-right:0;
+  }
+  /*MOHSIN-01-AP-2019-END*/
 
 /*NO-OFFER-END*/
 
@@ -6848,7 +6864,10 @@ mohsin css 16-03-2019 */
 .cust-carousel .card-info-box {
     padding-left: 5px;
 }
-
+body
+{
+  overflow: hidden
+}
 
 
 }

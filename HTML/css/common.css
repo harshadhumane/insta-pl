@@ -133,11 +133,7 @@ body
   background: #f9f9f9;
   font-size: 14px;
 }
-body.over
-{
-  position: relative;
-  overflow: hidden;
-}
+
 main
 {
   width: 100%
@@ -1159,7 +1155,16 @@ input:checked + .slider:before {
 {
 color: #e77817;
 }
+.over-x
+{
+  overflow-x: hidden;
 
+}
+.over-x
+{
+  overflow-x: auto;
+
+}
 
 }
 /*COMMON-MEDIA START*/
@@ -1202,11 +1207,18 @@ color: #e77817;
 {
   justify-content: space-around;
 }
+body
+{
+  overflow: hidden
+}
 }
 
 
 @media only screen and (max-width: 767px) {
-
+body
+{
+  overflow: hidden
+}
   /*HEADER START*/
  /*  header .right-box
  {
@@ -1397,10 +1409,6 @@ width: 17px;
 
 }
 
-.over
-{
-  overflow: hidden;
-}
 .holderdetails:before
 {
   height: 40px;
