@@ -6824,6 +6824,10 @@ mohsin css 16-03-2019 */
 
 /*MEDIA 320-START*/
 @media only screen and (max-width: 359px) {
+  .adp-offer-changed-container >.left-box
+  {
+    display: none;
+  }
   .card-body-content .upper-box .upper-left-box .small-para {
     padding-right: 38px;
   }
