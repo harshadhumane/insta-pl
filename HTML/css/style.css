@@ -3195,7 +3195,7 @@ mohsin css 16-03-2019 */
   color: #adadad;
   font-size: 14px;
   padding: 3px;
-  height: auto;
+  height: 28px;
   margin-left: 5px;
 }
 
@@ -3267,13 +3267,13 @@ mohsin css 16-03-2019 */
 
 .left-table-box {
   max-width: 346px;
-  width: 100%;
+  width: 33%;        /* 01-04-2019  */
 }
 
 .right-table-box {
   max-width: -webkit-calc(1619px - 346px);
   max-width: calc(1619px - 346px);
-  width: 100%;
+  width: 67%;       /* 01-04-2019  */
 }
 
 .right-table-box .applications-table.table {
