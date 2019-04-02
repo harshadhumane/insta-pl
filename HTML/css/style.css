@@ -3271,8 +3271,8 @@ mohsin css 16-03-2019 */
 }
 
 .right-table-box {
-  max-width: -webkit-calc(1619px - 346px);
-  max-width: calc(1619px - 346px);
+  max-width: -webkit-calc(1700px - 346px);
+  max-width: calc(1700px - 346px);
   width: 67%;       /* 01-04-2019  */
 }
 
@@ -3962,6 +3962,16 @@ mohsin css 16-03-2019 */
   font-family: 'zurich_bt'
 }
 /*MOHSIN 01-04-2019 END*/
+
+/* 02-04-2019 css */
+.applications-table tbody tr td.offer-amt{
+      width: 130px;
+}
+
+.applications-table thead th.offer-amt, .applications-table thead th.tenure{
+  text-align: right;
+}
+
 
 /*MEDIA QUERIES START*/
 /*MEDIA 1200 START*/
