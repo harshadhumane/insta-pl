@@ -46,7 +46,6 @@ $(".menu-cross-mob-box").click(function(){
   }
 else
 {
-  alert(2);
 $("body,html").addClass("over-x");
   // MOBILE LEFT_NAV_CLICK_END
 $(".hambur-img").click(function(){
